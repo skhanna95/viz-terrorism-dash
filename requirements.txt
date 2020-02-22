@@ -5,7 +5,6 @@ dash_html_components
 pandas
 plotly
 dash_daq
-locale
 numpy
 django
 dash-renderer
