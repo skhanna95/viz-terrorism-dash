@@ -1,0 +1,14 @@
+dash
+dash_table
+dash_core_components
+dash_html_components
+pandas
+plotly.graph_objs
+plotly.express
+django.conf.urls
+dash.dependencies
+json
+dash_daq
+locale
+numpy
+django
