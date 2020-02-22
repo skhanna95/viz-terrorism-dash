@@ -4,8 +4,6 @@ dash_core_components
 dash_html_components
 pandas
 plotly
-django.conf.urls
-dash.dependencies
 json
 dash_daq
 locale
