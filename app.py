@@ -133,6 +133,8 @@ most_influential_group = top1_group_influence.values[0][1]
 # body
 ####################################################################################################################################################
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server=app.server
+server.secret_key = os.environ.get('secret_key', 'secret')
 
 styles = {
 	'pre': {
@@ -1034,6 +1036,4 @@ def update_data_table(clickData):
 ####################################################################################################################################################
 if __name__ == '__main__':
 
-	#app = dash.Dash(__name__)
-	server=app.run_server(debug=True)
-	server.secret_key = os.environ.get('secret_key', 'secret')
+	app.run_server(debug=True)
