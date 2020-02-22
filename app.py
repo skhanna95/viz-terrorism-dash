@@ -129,7 +129,7 @@ group_influence= group_influence.rename(columns={'EventId':'Count'})
 
 top1_group_influence = group_influence.sort_values('Count',ascending = False).head(1) 
 most_influential_group = top1_group_influence.values[0][1]
-
+import os
 # body
 ####################################################################################################################################################
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
