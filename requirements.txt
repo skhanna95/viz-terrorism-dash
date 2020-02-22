@@ -4,7 +4,6 @@ dash_core_components
 dash_html_components
 pandas
 plotly
-json
 dash_daq
 locale
 numpy
